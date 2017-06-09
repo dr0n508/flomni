@@ -11,27 +11,21 @@ $(document).ready(function () {
     $('.list-messengers .btn-social').click(function () {
         $(this).parent().addClass('active');
         $('.footer-chat').addClass('slim');
-        $('#screen2').toggle();
+        $('#hide-block').toggle();
         $('.chat-box').addClass('small');
-
         $('.btn-message-template').hide();
-
-
-
     });
 
     $('#connectOtherDevice').click(function () {
-        $('#screen3').toggle();
-        $('#screen2, .chat-box').hide();
+        $('#qrCode-block').toggle();
+        $('#hide-block, .chat-box').hide();
         $('.header-chat').addClass('border-bottom');
-
     });
 
     $('.link-cancel a').click(function () {
-        $('#screen3').toggle();
-        $('#screen2, .chat-box').toggle()();
+        $('#qrCode-block').toggle();
+        $('#hide-block, .chat-box').toggle()();
         $('.header-chat').removeClass('border-bottom');
-
     });
 
 
