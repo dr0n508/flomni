@@ -352,15 +352,22 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
 @media only screen and (max-width: 450px) {
   .widget-messages {
     width: 100%;
-    position: static; }
+    position: static;
+    box-shadow: none; }
 
   .wrap-buttons-call {
     padding-bottom: 15px; }
 
   .header-chat .name-group {
     padding: 15px 0; } }
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 680px) {
   .chat-box {
-    height: 200px; } }
+    height: 250px; }
+
+  .header-chat .name-group {
+    padding: 15px 0; }
+
+  .wrap-buttons-call {
+    padding-bottom: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

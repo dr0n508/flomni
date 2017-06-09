@@ -427,6 +427,7 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   .widget-messages {
     width: 100%;
     position: static;
+    box-shadow: none;
   }
   .wrap-buttons-call {
     padding-bottom: 15px;
@@ -436,6 +437,12 @@ div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,
   }
 }
 
-@media only screen and (max-height: 650px ) {
-  .chat-box { height: 200px}
+@media only screen and (max-height: 680px ) {
+  .chat-box { height: 250px}
+  .header-chat .name-group {
+    padding: 15px 0;
+  }
+  .wrap-buttons-call {
+    padding-bottom: 10px;
+  }
 }
