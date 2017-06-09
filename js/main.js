@@ -2,10 +2,12 @@ $(document).ready(function () {
 
     $('.fl-launcher-button').click(function () {
        $('.widget-messages').toggle();
+        $('.fl-launcher-button').toggle();
     });
 
     $('.btn-close ').click(function () {
         $('.widget-messages').hide();
+        $('.fl-launcher-button').toggle();
     });
 
     $('.list-messengers .btn-social').click(function () {
